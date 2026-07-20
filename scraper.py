@@ -12,9 +12,9 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 
 #Config
-LOGIN_PAGE_URL = "https://app.sixfifty.com/auth/login?return_to=%2F"
-LOGIN_POST_URL = ""
-PROTECTED_PAGE_URL = ""
+LOGIN_PAGE_URL = "https://example.com/login"
+LOGIN_POST_URL = "https://example.com/login"
+PROTECTED_PAGE_URL = "https://example.com/protected-page"
 
 OUTPUT_DIRECTORY = Path("output")
 OUTPUT_FILE = OUTPUT_DIRECTORY / "scraped_data.csv"
