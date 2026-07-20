@@ -1,0 +1,3 @@
+requests #Communicates with the website
+beautifulsoup4 #Scraping package
+python-dotenv #Loads credentials
